@@ -23,14 +23,14 @@ $(function() {
     $('.go').slideUp();
      var tll= new TimelineLite();
     tll
-    .from(icon1,0.5,{y:-200,autoAlpha:0,ease:Power1.easeOut, opacity:0},2)
-    .from(icon2,0.2,{y:-250,autoAlpha:0,ease:Power2.easeOut, opacity:0})
-    .from(icon3,0.2,{y:-300,autoAlpha:0,ease:Power2.easeOut, opacity:0})
-    .from(icon4,0.2,{y:-350,autoAlpha:0,ease:Power2.easeOut, opacity:0})
-    .from(icon5,0.2,{y:-400,autoAlpha:0,ease:Power2.easeOut, opacity:0})
-    .from(icon6,0.2,{y:-450,autoAlpha:0,ease:Power2.easeOut, opacity:0})
-    .from(icon7,0.2,{y:-500,autoAlpha:0,ease:Power2.easeOut, opacity:0})
-    .from(icon8,0.5,{y:-550,autoAlpha:0,ease:Power2.easeOut, opacity:0})
+    .from(icon0,0.5,{y:-200,autoAlpha:0,ease:Power1.easeOut, opacity:0},2)
+    .from(icon1,0.2,{y:-250,autoAlpha:0,ease:Power2.easeOut, opacity:0})
+    .from(icon2,0.2,{y:-300,autoAlpha:0,ease:Power2.easeOut, opacity:0})
+    .from(icon3,0.2,{y:-350,autoAlpha:0,ease:Power2.easeOut, opacity:0})
+    .from(icon4,0.2,{y:-400,autoAlpha:0,ease:Power2.easeOut, opacity:0})
+    .from(icon5,0.2,{y:-450,autoAlpha:0,ease:Power2.easeOut, opacity:0})
+    .from(icon6,0.2,{y:-500,autoAlpha:0,ease:Power2.easeOut, opacity:0})
+    .from(icon7,0.5,{y:-550,autoAlpha:0,ease:Power2.easeOut, opacity:0})
   });
 
   let navinfo= $('.nav-info');
@@ -44,14 +44,14 @@ $(function() {
 
   let titles = [ "بازگشت", "پیدایش ماه",  "شهاب سنگ ها", "فرازمینی ها", "آپولو", "سیاره زحل", "هفت اورنگ کهین", "ارتباط با ما"];
 
-  effect(icon1, titles[0]);
-  effect(icon2, titles[1]);
-  effect(icon3, titles[2]);
-  effect(icon4, titles[3]);
-  effect(icon5, titles[4]);
-  effect(icon6, titles[5]);
-  effect(icon7, titles[6]);
-  effect(icon8, titles[7]);
+  effect(icon0, titles[0]);
+  effect(icon1, titles[1]);
+  effect(icon2, titles[2]);
+  effect(icon3, titles[3]);
+  effect(icon4, titles[4]);
+  effect(icon5, titles[5]);
+  effect(icon6, titles[6]);
+  effect(icon7, titles[7]);
 
     let hiddencontent0=$('.text-count0');
     let hiddencontent1=$('.text-count1');
