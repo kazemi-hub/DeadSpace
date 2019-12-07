@@ -167,6 +167,9 @@ body {
   display: inline-flex;
   flex-direction: column;
 }
+span:hover {
+  position: relative;
+}
 .sidebar a:hover {
   text-decoration: none;
   border: none;
